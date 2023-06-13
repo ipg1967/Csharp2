@@ -1,19 +1,19 @@
-﻿// Напишите программу, которая будет принимать на вход два числа и выводить, является ли второе число кратным первому. 
-// Если число 2 не кратно числу 1, то программа выводит остаток от деления.
+﻿// Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе 
+// показывает вторую цифру этого числа.
+// 456 -> 5
+// 782 -> 8
+// 918 -> 1
 
-// 34, 5 -> не кратно, остаток 4 
-// 16, 4 -> кратно
+System.Console.WriteLine("Введите трехзначное число : ");
+int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-System.Console.WriteLine("Введите первое число - ");
-int fnumber = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите второе число - ");
-int snumber = Convert.ToInt32(Console.ReadLine());
-if (fnumber%snumber == 0)
+if (number > 99)
 {
-    System.Console.WriteLine("Число является кратным");
+    number = number - (number/100)*100 - number%10;
+    System.Console.WriteLine($"Вторая цифра числа : {number/10}");
 }
 else
 {
-    System.Console.Write("Число не кратно, остаток ");
-    System.Console.WriteLine(fnumber%snumber );
+    System.Console.WriteLine("Число не трехзначное");
+    System.Console.WriteLine("");
 }
