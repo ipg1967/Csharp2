@@ -7,9 +7,9 @@
 System.Console.WriteLine("Введите трехзначное число : ");
 int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-if (number > 99)
+if (number > 99 && number <1000)
 {
-    number = number - (number/100)*100 - number%10;
+    number = number - (number/100)*100;
     System.Console.WriteLine($"Вторая цифра числа : {number/10}");
 }
 else

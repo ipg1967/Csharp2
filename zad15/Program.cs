@@ -1,20 +1,16 @@
-﻿//
-// Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+﻿// Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+// 6 -> да
+// 7 -> да
+// 1 -> нет
 
-// 5, 25  ->  да
-// -4, 16  ->  да
-// 25, 5  ->  да
-// 8,9  ->  нет
-
-System.Console.WriteLine("Введите первое число - ");
-int fnumber = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine("Введите второе число - ");
-int snumber = Convert.ToInt32(Console.ReadLine());
-if (snumber*snumber == fnumber || fnumber*fnumber == snumber) 
+System.Console.WriteLine("Введите день недели : ");
+int number = Convert.ToInt32(Console.ReadLine());
+Console.Clear();
+if (number == 6 || number == 7) 
     {
-    System.Console.WriteLine($"Число {fnumber} является кратным квадрату числа {snumber} или наоборот");
+    System.Console.WriteLine($"{number} -> да");
     }
 else
     {
-    System.Console.Write("Числа не кратны квадратам ");
+    System.Console.WriteLine($"{number} -> нет");
     }

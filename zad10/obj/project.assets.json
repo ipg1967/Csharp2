@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/igorbenko/Documents/Coding/Знакомство с языками программирования/Seminar2/Tasks/zad10/zad6.csproj",
-      "projectName": "zad6",
-      "projectPath": "/Users/igorbenko/Documents/Coding/Знакомство с языками программирования/Seminar2/Tasks/zad10/zad6.csproj",
+      "projectUniqueName": "/Users/igorbenko/Documents/Coding/Знакомство с языками программирования/Seminar2/Tasks/zad10/zad10.csproj",
+      "projectName": "zad10",
+      "projectPath": "/Users/igorbenko/Documents/Coding/Знакомство с языками программирования/Seminar2/Tasks/zad10/zad10.csproj",
       "packagesPath": "/Users/igorbenko/.nuget/packages/",
       "outputPath": "/Users/igorbenko/Documents/Coding/Знакомство с языками программирования/Seminar2/Tasks/zad10/obj/",
       "projectStyle": "PackageReference",
